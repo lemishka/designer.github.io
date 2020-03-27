@@ -1,5 +1,10 @@
 body{
 	cursor: default;
+	font-family: 'roboto';
+}
+
+.medium{
+	font-weight: 500;
 }
 
 .header{
@@ -45,14 +50,14 @@ body{
 	position: absolute;
 	height: 475px;
 	bottom: 0px;
-	left: 495px; 
+	right: 150px; 
 	
 	position: bottom;
 }
 
 .header_font_1{
+	font-weight: 100;
 	font-size: 100px;
-	font-family: roboto thin;
 	font-style: italic;
 	color: #545454;
 	margin-top: 165px;
@@ -61,8 +66,7 @@ body{
 }
 
 .header_a{
-	position: absolute;
-	font-family: roboto;
+	position: absolute;;
 	font-size: 28.75px;
 	margin-left: 400px;
 	color: black;
@@ -70,18 +74,17 @@ body{
 
 .header_font_a{
 	text-decoration: none;
-	font-family: roboto regular;
 	color: black;
 }
 
 .header_thin_italic{
-	font-family: roboto thin;
+	font-weight:  100;
 	font-style: italic;
 }
 
 .header_black{
 	height: 11%;	
-	font-family: roboto black;
+	font-weight:  900;
 	font-size: 65px;
 	/*margin-left: 200px*/;
 	position: absolute;
@@ -116,7 +119,7 @@ body{
 	margin: auto;	
 	word-wrap: break-word;
 	text-align: center;
-	font-family: roboto thin;
+	font-weight:  100;
 	font-size: 87px;
 	width: 100%;
 
@@ -129,37 +132,30 @@ body{
 
 .first_page_text{ 
 	margin: auto;
-	/*border:1px solid black;*/
 	display: inline-block;
 	margin-top: 115px;
 	position: relative;
 	top: 0px;
-	/*margin-left: 300px;*/
 	align-items: center;
-	/*min-height: 100%;*/
-	
-	
-}
-.tutu{
-	max-width: 100%;
-	/*width: none;*/
-	/*position: relative;*/
-	display: inline-block;
-	/*margin-top: -10px;*/
-	/*margin-bottom:-50px;*/
-	/*border: 1px solid black;*/
-}
-.qwe{
+
 	
 }
 
+
+.tutu{
+	max-width: 100%;
+	display: inline-block;
+}
+
+.qwe{
+	font-size: 0.7em;	
+}
+
 .asd{
-	/*border: 1px solid black;*/
 
 }
 
 .img_main{	
-	/*border: 1px solid black;*/
 	height: 430px;
 	display: block;
   margin-left: auto;
@@ -169,24 +165,24 @@ body{
 
 .div_img_main{
 	margin-top: 150px;
-	/*border: 1px solid black;*/
 }
 
 .first_page_text_medium{
-	font-family: roboto medium;
+	font-weight:  500;
 	font-size: 110px;
 	text-align: center;
 }
 
 .div_first_page_text_medium{
 	min-width: none;
-	/*position: absolute;*/
-	/*border: 1px solid black;*/
 	word-wrap: break-word;
 }
 
+.interval{
+	margin-top: 150px;
+}
 
-	
+
 
 .main_a{
 	 
@@ -196,7 +192,6 @@ body{
 	position: fixed;
 	/*border: 1px solid black;*/
 	bottom: 0px;
-	font-family: roboto;
 	font-size: 28.75px;
 	right: 0;
 	margin-right: 0px;
@@ -224,7 +219,7 @@ body{
 
 .space{
 	/*position: absolute;*/
-	height:  1000px;
+	height:  500px;
 }
 
 /*.div_footer{
@@ -235,7 +230,7 @@ body{
 	bottom:0;
 	max-width: 150px;
 	max-height: 160px;
-	font-family: roboto medium;
+	font-family: roboto 500;
 	font-size: 18px;
 	/*border:1px solid black;	*/
 	vertical-align: bottom;
@@ -305,3 +300,275 @@ body{
 
 
 
+
+
+
+/*HISTORY*/
+
+	
+
+.histori_page_font_thin{	
+	margin: auto;	
+	word-wrap: break-word;
+	/*text-align: left;*/
+	font-weight:  100;
+	font-size: 87px;
+	/*width: 100%;*/
+
+	/*border: 1px solid black;*/
+	/*border: 1px solid black;*/
+	min-height: none;
+
+
+}
+
+.histori_page_text{ 
+	display: inline-block;
+	margin-top: 115px;
+	/*position: relative;*/
+	/*margin: auto;*/
+	/*width: 80%;*/
+	/*border:1px solid black;*/
+	display: inline-block;
+	margin-top: 115px;
+	/*position: relative;*/
+	top: 0px;
+	/*margin-left: 300px;*/
+	/*align-items: center;*/
+	/*min-height: 100%;*/
+	
+}
+
+.histori_text_left{
+	max-height: 50%;
+	position: absolute;
+	right:0px;
+	margin-top: 2500px;
+	/*margin-bottom:-800px;*/
+	margin-right:  50.4%;
+	width: 30%;
+	font-size: 2.5em;
+}
+
+
+.histori_text_right{
+	max-height: 50%;
+	position: absolute;
+	/*right:0px;*/
+	margin-top: 2550px;
+	/*margin-bottom:-800px;*/
+	margin-left:  50%;
+	width: 30%;
+	font-size: 2.5em;
+}
+
+
+/*.histori_text{
+	bottom:50px;
+	margin-left: 590px;
+	width: 30%;
+	font-size: 2.5em;
+}*/
+
+.align_left{
+	margin-left: 250px;
+	text-align: left;
+}
+
+.align_text_left{
+	text-align: left;
+}
+
+.align_right{
+	/*margin-left: auto;*/
+	position: absolute; 
+  	top: 1200px; 
+	right: 250px
+}
+
+
+.align_text_right{
+	text-align: right;
+}
+
+
+.line{
+	/*bottom:0;*/
+	/*position: absolute;*/
+	background-color: black;
+	/*margin-top: 0px; */
+	margin: auto;
+	margin-top: 100px;
+	height: 460px;
+	width: 2px;
+	/*margin-top: 2500px;*/
+	/*margin-left: 50.2%; */
+	/*margin-right: auto;*/
+}
+
+.code_01{
+	margin-right: auto;
+	font-size: 2.5em;
+}
+
+.code{
+	margin-right: auto;
+	font-size: 3em;
+}
+
+.to_top{
+	/*position: absolute;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.horizontal_line {
+	background-color: black;
+	/*margin-top: 0px; */
+	margin: auto;
+	/*margin-top: 100px;*/
+	height: 2px;
+	width: 80%;
+}
+
+
+
+
+.line_01{
+	margin-top: -50px;
+}
+
+
+.calligraphy{
+	font-size: 10em;
+}
+
+.calligraphy_history{
+	word-break: break-all;
+	font-size: 0.01em;
+	text-align: left;
+}
+
+
+
+
+
+
+
+	/*margin-left: -8px;
+	margin-right: -8px; 
+	margin-top: 600px;
+	background-color: white;
+	height: 100px;*/
+
+
+.img_calligraphy{
+	margin: auto;
+	margin-top: 600px;
+	background-color: white;
+	height: 700px;
+	width: 80%;
+	/*border: 1px solid black;*/
+}
+
+.img_calligraphy_01{
+	margin: auto;
+	background: url(../photo/photo/DSC_0103.jpg) no-repeat;
+	width: 100%;
+	height: 100%;
+	/*background-color: red;*/
+	/*border: 1px solid black;*/
+	background-size: 100%;
+	background-position: 0% 85%;
+}
+
+
+
+.gallery {
+	display: flex;
+	margin: auto;
+  max-width: 50%;
+  /*width: 1500px;*/
+  height: 
+  margin: 30px auto;
+  flex-flow: wrap;
+  /*padding-left: 20px;*/
+  /*padding-right: 20px;*/
+  /*border: 1px solid black;*/
+}
+
+
+.img {
+	margin: auto;
+	/*margin: 50px;*/
+	margin-top: 20px;
+	/*display: inline;*/
+	width: 300px;
+	height: 138px;
+	border: 1px solid black;
+	background-size: cover;
+  background-position: center;
+  /*padding-bottom: 100%;*/
+
+}
+
+
+
+
+.zamovlennya{
+	/*height: 50px;*/
+	/*border: 1px solid black;*/
+	margin: auto;
+	width: 80%;
+}
+
+
+.zamovlennya_text{
+	position: absolute;
+	/*border: 1px solid red;*/
+	width: 50%;
+
+}
+
+
+.nazva{
+	margin-top:-85px; 
+	text-align: left;
+	font-size: 6.5em;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+
+.punkty{
+	width: 80%;
+	font-weight: 300;
+	margin-top: -80px;
+	font-size: 2em;
+}
+
+
+.price{
+	font-size: 5em;
+	font-weight: 500;
+	bottom:0;
+	/*border: 1px solid green;*/
+	/*margin-top: -30px;*/
+	word-wrap: break-word;
+	text-align: right;
+	width: 60%;		
+}
+
+.photo_zam{
+	margin-left: auto;
+	width: 50%;
+	/*border: 1px solid black;*/
+}
+
+.photo_zam_01{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid yellow;*/
+	background-size: 100%;
+	
+}
